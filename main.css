@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body
+{
+    background: linear-gradient(to right,green, white);
+    background-color: antiquewhite;
+}
+.heading{
+    margin: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color:rgba(3, 14, 59, 0.81);
+    font-size: larger;
+}
+.header{
+    padding: 10px;
+    border: solid green;
+    margin: 8px;
+    border-radius: 16px;
+    box-shadow: black 3px 2px .5px;
+    background: linear-gradient(to right, pink ,white);
+}
+.ambition{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+.search-bar{
+    width: 550px;
+    padding: 0px;
+    border: solid black;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+#search{
+    padding: 10px;
+    width: 500px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+i{
+      margin-left: 2px;
+      background-color: aquamarine;
+      padding: 4px;
+      padding-top: 8px;
+      padding-bottom: 11px;
+}
+i:hover{
+    cursor: pointer;
+    transition: .05s;
+    color: blueviolet;
+}
+.blocks{
+  float: left;
+}
+.block1{
+    float: left;
+    display: block;
+    width: 450px;
+    height: 300px;
+    border: solid black;
+    border-radius: 5px;
+    box-shadow: grey 2px 2px .5px;
+    margin: 13px;
+    background-color: burlywood;
+}
+.texted{
+    text-align: center;
+    font-style: oblique;
+    padding-bottom: 15px;
+}
+.info{
+    padding: 6px;
+    text-align: center;
+}
+h4{
+    font-size: smaller;
+    padding: 5px;
+    text-align: center;
+}
+#lighting{
+    margin-left: 5px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 18);
+    border: 2px solid black;
+    box-shadow: 2px 5px 2px rgb(77, 72, 11);
+    cursor: pointer;
+}
+.dark-theme{
+    color: aliceblue;
+    background:linear-gradient(to right,purple,rgb(233, 3, 3));
+}
